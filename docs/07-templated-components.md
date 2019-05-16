@@ -425,7 +425,7 @@ Adding the `Loader` attribute should fix the issue.
 note: A generic-typed component can have its type-parameters manually specified as well by setting the attribute with a matching name to the type parameter - in this case it's called `TItem`. There are some cases where this is necessary so it's worth knowing.
 
 ```html
-<TemplatedList TItem="OrderStatus">
+<TemplatedList TItem="OrderWithStatus">
 </TemplatedList>
 ```
 
